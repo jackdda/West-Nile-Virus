@@ -1,5 +1,8 @@
-This data analysis was based on data sourced from a Kaggle competition 
+This data analysis was based on data sourced from a Kaggle competition:
 https://www.kaggle.com/competitions/predict-west-nile-virus/code?competitionId=4366&sortBy=voteCount
+
+It is visualized and explored further in a Tableau workbook at this link:
+https://public.tableau.com/app/profile/jack.didier/viz/WestNileVirusinChicago_16591334267950/Story1
 
 Its key purpose is to show the prevalence of West Nile Virus in Chicago from the years 2007-2013 during the active mosquito months of May-October and the effects that
 weather and pesticides have on mosquito populations.
