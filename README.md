@@ -7,6 +7,7 @@ Data includes:
 1) weather - a NOAA dataset of all weather values in the two Chicago weather stations
 2) traps - a CSV file of all the times a mosquito trap was checked, where it was, how many mosquitos were there, the mosquito species, and if WNV was found present
 3) spray - coordinates and times where mosquito pesticides were sprayed.
+
 The Jupyter notebook uploaded first cleans and organizes the data. Second, the Haversine formula is used to assign a closest station to each trap for more accurate
 weather value pairing and individual station values are shown. From there, the CodeSum column from weather (which includes multiple 2-character weather codes on the same 
 line) is split up into individual columns that can be accessed and rolling averages are performed on all values for 1-14 days the explore the effect of weather on 
