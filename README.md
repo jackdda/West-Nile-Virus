@@ -11,11 +11,11 @@ Data includes:
 2) traps - a CSV file of all the times a mosquito trap was checked, where it was, how many mosquitos were there, the mosquito species, and if WNV was found present
 3) spray - coordinates and times where mosquito pesticides were sprayed.
 
-The Jupyter notebook uploaded first cleans and organizes the data. Second, the Haversine formula is used to assign a closest station to each trap for more accurate
-weather value pairing and individual station values are shown. From there, the CodeSum column from weather (which includes multiple 2-character weather codes on the same 
+The Jupyter notebook uploaded first cleans and organizes the data. From there, the Haversine formula is used to assign a closest station to each trap for more accurate
+weather value pairing and individual station values are shown. The CodeSum column from weather (which includes multiple 2-character weather codes on the same 
 line) is split up into individual columns that can be accessed and rolling averages are performed on all values for 1-14 days the explore the effect of weather on 
-mosquito growth. Third, data is visualized on a map of Chicago first showing trap locations, if they have logged WNV, and spray locations. The second map identifies 
+mosquito growth. Data is then visualized first on a map of Chicago showing trap locations, if they have logged WNV, and spray locations. The second map identifies 
 the closest weather station to each trap. Next the data was tested for correlated values with very little evidence of correlation. Mosquito species data was then used
 to perform a regression against WNV prevalence showing a clear driver in Culex Pipien. A regression was then performed on rolling averages of weather patterns showing
 little effect in the first few days (with a higher coefficient on the constant than other values), but was found to be more consequential in later days. A line chart
-is then shown showing statistical significance for the 3 highest coefficient values.
+is then shown showing statistical significance for the 3 highest coefficient values for both mosquito population and West Nile Virus prevalence.
