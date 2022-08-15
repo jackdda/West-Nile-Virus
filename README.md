@@ -1,5 +1,5 @@
 This data analysis was based on data sourced from a Kaggle competition:
-https://www.kaggle.com/competitions/predict-west-nile-virus/code?competitionId=4366&sortBy=voteCount
+https://www.kaggle.com/competitions/predict-west-nile-virus/overview
 
 It is visualized and explored further in a Tableau workbook at this link:
 https://public.tableau.com/app/profile/jack.didier/viz/WestNileVirusinChicago_16591334267950/Story1
