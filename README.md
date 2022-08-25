@@ -1,7 +1,6 @@
 The following data analysis was based on data sourced from a [Kaggle competition](https://www.kaggle.com/competitions/predict-west-nile-virus/overview) and completed by Jack Didier. It is further visualized with key insights highlighted in a [Tableau presentation](https://public.tableau.com/views/ChicagoWestNileVirus/WestNileVirusinChicago?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host3#navType=1&navSrc=Parse) also created by Jack Didier.
 
-Its key purpose is to show the prevalence of West Nile Virus in Chicago from the years 2007-2013 during the active mosquito months of May-October and the effects that
-weather and pesticides have on mosquito populations.
+Its key purpose is to show the prevalence of West Nile Virus in Chicago from the years 2007-2013 during the active mosquito months of May-October and the effects that weather and pesticides have on mosquito populations.
 Data includes: 
 1) weather - a NOAA dataset of all weather values in the two Chicago weather stations
 2) traps - a CSV file of all the times a mosquito trap was checked, where it was, how many mosquitos were there, the mosquito species, and if WNV was found present
